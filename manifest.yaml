@@ -1,8 +1,8 @@
 
-id: primal 
-title: "Primal"
-version: 0.93.14
-release-notes: "Initial release of Primal for StartOS"
+id: primal-orange 
+title: "Primal Orange"
+version: 0.106.3
+release-notes: "Initial release of Primal Orange for StartOS"
 license: MIT
 wrapper-repo: "https://github.com/k0gen/primal-startos"
 upstream-repo: "https://github.com/PrimalHQ/primal-web-app"
@@ -10,9 +10,9 @@ support-site: "https://github.com/PrimalHQ/primal-web-app/issues"
 marketing-site: "https://primal.net/"
 build: ["make"]
 description:
-  short: Primal, a very fast nostr client that relies on server-side caching
+  short: Primal Orange, a very fast nostr client that relies on server-side caching and optional Bitcoin user validation
   long: |
-    Primal is a fast, efficient, and user-friendly Nostr client that leverages server-side caching to deliver a smooth and responsive user experience. Its clean interface and insightful features make it a valuable tool for any Nostr user.
+    Primal Orange is a fast, efficient, and user-friendly Nostr client that leverages server-side caching to deliver a smooth and responsive user experience. Its clean interface and insightful features make it a valuable tool for any Nostr user.
 assets:
   license: LICENSE
   icon: icon.png
@@ -27,7 +27,7 @@ main:
 health-checks:
   web-ui:
     name: Web UI
-    success-message: Primal is ready
+    success-message: Primal Orange is ready
     type: script
 config: ~
 properties: ~
